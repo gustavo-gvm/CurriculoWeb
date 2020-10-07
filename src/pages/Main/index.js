@@ -1,7 +1,10 @@
 import React from 'react';
+import './styles.css';
 
 const Main = () => (
-  <h2>Configuração Inicial</h2>
+  <div className="main">
+    <h2>Main</h2>
+  </div>
 );
 
 export default Main;
