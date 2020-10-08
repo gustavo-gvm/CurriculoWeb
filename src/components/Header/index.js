@@ -9,7 +9,7 @@ const Header = () => (
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="navbar-nav">
       <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#perfil">Perfil</Nav.Link>
+      <Nav.Link href="#aboutme">Quem sou eu</Nav.Link>
       <Nav.Link href="#graduacao">Graduacao</Nav.Link>
       <Nav.Link href="#certificados">Certificados</Nav.Link>
       <Nav.Link href="#experiencia">Experiencia</Nav.Link>

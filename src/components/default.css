@@ -1,0 +1,97 @@
+/*------/ Box /------*/
+
+.box-pl2 {
+  padding-left: 2rem;
+}
+
+.box-shadow-full {
+  padding: 3rem 2em;
+  position: relative;
+  background-color: #fff;
+  margin-bottom: 3rem;
+  z-index: 2;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+/*------/ CARD /------*/
+.container-gvm .box-shadow-full {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.container-gvm {
+  margin-left: 10px;
+  margin-bottom: 2rem;
+}
+
+.container-gvm p{
+  color: black;
+}
+
+/*--/ Title-s /--*/
+
+.title-s {
+  font-weight: 600;
+  color: #1e1e1e;
+  font-size: 1.1rem;
+  margin-left: 20px;
+}
+
+/*--/ Title sm - pf /--*/
+
+.title-sm,.title,.title-pf {
+  font-size: 2rem;
+  position: relative;
+  margin-bottom: 3rem;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+}
+
+.title{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.subtitle {
+  color: #4e4e4e;
+  font-size: 25px;
+  position: relative;
+}
+
+
+.title-sm::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 100px;
+  bottom: -12px;
+}
+
+.title-pf::before {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #0078ff;
+  width: 55px;
+  bottom: -12px;
+}
+
+.subtitle::before{
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #0155b4c4;
+  width: 200px;
+  bottom: -5px;
+}
