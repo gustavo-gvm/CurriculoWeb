@@ -4,10 +4,11 @@ import './styles.css';
 
 const Header = () => (
   <Navbar collapseOnSelect expand="lg" variant="dark" fixed="top" id="navbar">
-  <Navbar.Brand href="#page-top">GVM</Navbar.Brand>
+  <Navbar.Brand href="#home">GVM</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="navbar-nav">
+      <Nav.Link href="#home">Home</Nav.Link>
       <Nav.Link href="#perfil">Perfil</Nav.Link>
       <Nav.Link href="#graduacao">Graduacao</Nav.Link>
       <Nav.Link href="#certificados">Certificados</Nav.Link>

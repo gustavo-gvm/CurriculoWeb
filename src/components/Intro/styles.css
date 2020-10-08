@@ -1,0 +1,134 @@
+.intro {
+  background-image: url(../../assets/img/black.png);
+  background-color: #000000e8;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  display: flex;
+}
+
+#capa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0 0 0 3%;
+}
+
+#intro-img img {
+  width: 400px;
+  border-radius: 400px;
+}
+
+#intro-title{
+  width: 100%;
+  align-self: center;
+  padding: 0 0 0 3%;
+}
+
+#intro-title h1 {
+  color: #fff;
+  font-size: 58px;
+  line-height: 60px;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.intro .intro-subtitle {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.intro-subtitle {
+  font-size: 16px;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.intro .text-slider-items {
+  /* display: none; */
+}
+
+#btCurriculo{
+  width: 140px;
+  height: 40px;
+  background-color: transparent;
+  border: thin solid #0078ff;
+  border-radius: 40px;
+  box-shadow: none;
+  transition: all 0.7s;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+#btCurriculo:hover{
+  background-color: #0078ff;
+}
+
+@media screen and (min-width: 1200px){
+  #intro-title {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-height: 900px) {
+  #intro-img img{
+    width: 500px;
+    border-radius: 500px;
+  }
+
+  .text-slider-items{
+    font-size: 25px;
+  }
+}
+
+/* MOBILE */
+@media screen and (max-width: 768px){
+  .intro{
+    flex-direction: column;
+  }
+
+  #intro-img{
+    text-align: center;
+    margin-top: 56px;
+  }
+
+  #intro-img img {
+    width: 350px;
+    border-radius: 100%;
+  }
+
+  #intro-title{
+  padding: 0 0 0 0;
+  text-align: center;
+  }
+  
+  #intro-title h1 {
+    color: #fff;
+    margin-top: 5%;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: 0;
+  }
+
+  #intro-title h1 span{
+    font-size: 40px;
+    font-weight: 400;
+  }
+
+  .intro-subtitle {
+    font-size: 16px;
+    margin-top: -28px;
+    font-weight: 100;
+  }
+
+  #btCurriculo{
+    align-self: center;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+}
