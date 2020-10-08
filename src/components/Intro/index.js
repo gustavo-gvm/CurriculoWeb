@@ -19,7 +19,7 @@ const Intro = () => (
         <span className="text-slider-items">Dev Front-End, Estudante de ADS, Estagiário</span>
         <span className="text-slider"></span>
       </p>
-      <a id="btCurriculo" class="btn btn-primary" href={curriculo} target="_blank" role="button" data-toggle="tooltip" data-placement="bottom" title="Clique para visualizar o Currículo em PDF">Currículo</a>
+      <a id="btCurriculo" class="btn btn-primary" href={curriculo} target="_blank" rel="noopener noreferrer" role="button" data-toggle="tooltip" data-placement="bottom" title="Clique para visualizar o Currículo em PDF">Currículo</a>
     </div>
   </section>
 );
