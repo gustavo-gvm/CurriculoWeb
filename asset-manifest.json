@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/CurriculoWeb/static/css/main.456d10f1.chunk.css",
-    "main.js": "/CurriculoWeb/static/js/main.b810d496.chunk.js",
-    "main.js.map": "/CurriculoWeb/static/js/main.b810d496.chunk.js.map",
+    "main.css": "/CurriculoWeb/static/css/main.a0b3a61b.chunk.css",
+    "main.js": "/CurriculoWeb/static/js/main.316d3124.chunk.js",
+    "main.js.map": "/CurriculoWeb/static/js/main.316d3124.chunk.js.map",
     "runtime-main.js": "/CurriculoWeb/static/js/runtime-main.a9e54728.js",
     "runtime-main.js.map": "/CurriculoWeb/static/js/runtime-main.a9e54728.js.map",
     "static/css/2.11829350.chunk.css": "/CurriculoWeb/static/css/2.11829350.chunk.css",
-    "static/js/2.ff1f9c07.chunk.js": "/CurriculoWeb/static/js/2.ff1f9c07.chunk.js",
-    "static/js/2.ff1f9c07.chunk.js.map": "/CurriculoWeb/static/js/2.ff1f9c07.chunk.js.map",
+    "static/js/2.baf08612.chunk.js": "/CurriculoWeb/static/js/2.baf08612.chunk.js",
+    "static/js/2.baf08612.chunk.js.map": "/CurriculoWeb/static/js/2.baf08612.chunk.js.map",
     "index.html": "/CurriculoWeb/index.html",
-    "precache-manifest.9d995342910bd82164a0ab74a3530286.js": "/CurriculoWeb/precache-manifest.9d995342910bd82164a0ab74a3530286.js",
+    "precache-manifest.4102c7de4c88cdf1c97630bc14fac8dc.js": "/CurriculoWeb/precache-manifest.4102c7de4c88cdf1c97630bc14fac8dc.js",
     "service-worker.js": "/CurriculoWeb/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/CurriculoWeb/static/css/2.11829350.chunk.css.map",
-    "static/css/main.456d10f1.chunk.css.map": "/CurriculoWeb/static/css/main.456d10f1.chunk.css.map",
-    "static/js/2.ff1f9c07.chunk.js.LICENSE.txt": "/CurriculoWeb/static/js/2.ff1f9c07.chunk.js.LICENSE.txt"
+    "static/css/main.a0b3a61b.chunk.css.map": "/CurriculoWeb/static/css/main.a0b3a61b.chunk.css.map",
+    "static/js/2.baf08612.chunk.js.LICENSE.txt": "/CurriculoWeb/static/js/2.baf08612.chunk.js.LICENSE.txt",
+    "static/media/curriculo.pdf": "/CurriculoWeb/static/media/curriculo.bb088b90.pdf",
+    "static/media/profilePic.jpg": "/CurriculoWeb/static/media/profilePic.7548d4af.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a9e54728.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.ff1f9c07.chunk.js",
-    "static/css/main.456d10f1.chunk.css",
-    "static/js/main.b810d496.chunk.js"
+    "static/js/2.baf08612.chunk.js",
+    "static/css/main.a0b3a61b.chunk.css",
+    "static/js/main.316d3124.chunk.js"
   ]
 }
